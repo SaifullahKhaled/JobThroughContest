@@ -1,8 +1,8 @@
-module com.example.jobthroughcontest {
+module com.example.jcb {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.example.jobthroughcontest to javafx.fxml;
-    exports com.example.jobthroughcontest;
+    opens com.example.jcb to javafx.fxml;
+    exports com.example.jcb;
 }

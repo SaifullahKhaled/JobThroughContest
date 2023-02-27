@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="682.0" prefWidth="922.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jcb.dashboardController">
+   <children>
+      <BorderPane prefHeight="682.0" prefWidth="922.0" style="-fx-background-color: #3e446b;">
+         <left>
+            <Pane prefHeight="682.0" prefWidth="300.0" style="-fx-background-color: #154E86;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="260.0" fitWidth="300.0" layoutX="20.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@jcblogo.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#d7a8a8" layoutX="62.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DASHBOARD">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Text>
+                  <VBox layoutX="-3.0" layoutY="300.0" prefHeight="200.0" prefWidth="302.0">
+                     <children>
+                        <HBox prefHeight="71.0" prefWidth="302.0">
+                           <children>
+                              <ImageView fitHeight="69.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@homelogo.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets bottom="20.0" left="10.0" top="20.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <Button alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#backtohome" prefHeight="72.0" prefWidth="216.0" style="-fx-background-color: #154E86;" text="Homepage" textFill="WHITE">
+                                 <font>
+                                    <Font size="30.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets bottom="10.0" left="20.0" top="10.0" />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="47.0" prefWidth="302.0">
+                           <children>
+                              <ImageView fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@logout.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets top="10.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <Button alignment="BASELINE_LEFT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#logout" prefHeight="72.0" prefWidth="216.0" style="-fx-background-color: #154E86;" text="Logout" textFill="WHITE">
+                                 <font>
+                                    <Font size="30.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets top="10.0" />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <Text fill="#a18282" layoutX="61.0" layoutY="662.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Job Through Contest">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </left>
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox prefHeight="179.0" prefWidth="622.0">
+                     <children>
+                        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #8882ed;">
+                           <children>
+                              <Label alignment="CENTER" layoutX="108.0" layoutY="44.0" prefHeight="28.0" prefWidth="49.0" text="10" textAlignment="CENTER" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="30.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="40.0" fitWidth="60.0" layoutX="27.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@clienticon.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#f8f8f8" layoutX="100.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User">
+                                 <font>
+                                    <Font size="30.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="20.0" top="20.0" />
+                           </HBox.margin>
+                        </Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #8882ed;">
+                           <children>
+                              <Label alignment="CENTER" layoutX="108.0" layoutY="44.0" prefHeight="28.0" prefWidth="49.0" text="10" textAlignment="CENTER" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="30.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="60.0" fitWidth="80.0" layoutX="22.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@companyicon.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#f8f8f8" layoutX="63.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Company">
+                                 <font>
+                                    <Font size="30.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="60.0" top="20.0" />
+                           </HBox.margin>
+                        </Pane>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="60.0" right="40.0" top="80.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox prefHeight="179.0" prefWidth="622.0">
+                     <children>
+                        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #8882ed;">
+                           <children>
+                              <Label alignment="CENTER" layoutX="108.0" layoutY="44.0" prefHeight="28.0" prefWidth="49.0" text="10" textAlignment="CENTER" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="30.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="55.0" fitWidth="75.0" layoutX="30.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@job.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#f8f8f8" layoutX="109.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Job">
+                                 <font>
+                                    <Font size="30.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="20.0" top="20.0" />
+                           </HBox.margin>
+                        </Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #8882ed;">
+                           <children>
+                              <Label alignment="CENTER" layoutX="108.0" layoutY="44.0" prefHeight="28.0" prefWidth="49.0" text="10" textAlignment="CENTER" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="30.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="40.0" fitWidth="60.0" layoutX="27.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@clienticon.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fill="#f8f8f8" layoutX="63.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Company">
+                                 <font>
+                                    <Font size="30.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="60.0" top="20.0" />
+                           </HBox.margin>
+                        </Pane>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="60.0" top="100.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
