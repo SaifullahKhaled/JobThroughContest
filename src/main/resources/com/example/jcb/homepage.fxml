@@ -50,6 +50,26 @@
                                         </Button>
                                     </children>
                                 </HBox>
+                        <HBox prefHeight="71.0" prefWidth="302.0">
+                           <children>
+                              <ImageView fitHeight="69.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@chat.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets bottom="20.0" left="10.0" top="20.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <Button alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#gotochat" prefHeight="72.0" prefWidth="216.0" style="-fx-background-color: #154E86;" text="Chatbox" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="30.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets bottom="10.0" left="20.0" top="10.0" />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                        </HBox>
                                 <HBox prefHeight="47.0" prefWidth="302.0">
                                     <children>
                                         <ImageView fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
@@ -92,7 +112,7 @@
                                                 <Image url="@clienticon.png" />
                                             </image>
                                         </ImageView>
-                              <Button layoutY="69.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="200.0" style="-fx-background-color: #807aeb;" text="Apply For Job" textFill="WHITE">
+                              <Button layoutY="69.0" mnemonicParsing="false" onAction="#gotodapplyforjob" prefHeight="90.0" prefWidth="200.0" style="-fx-background-color: #807aeb;" text="Apply For Job" textFill="WHITE">
                                  <font>
                                     <Font name="System Bold" size="28.0" />
                                  </font>
@@ -119,7 +139,7 @@
                                                 <Image url="@clienticon.png" />
                                             </image>
                                         </ImageView>
-                              <Button layoutY="69.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="200.0" style="-fx-background-color: #807aeb;" text="Creat A Job" textFill="WHITE">
+                              <Button layoutY="69.0" mnemonicParsing="false" onAction="#gotocreatjob" prefHeight="90.0" prefWidth="200.0" style="-fx-background-color: #807aeb;" text="Creat A Job" textFill="WHITE">
                                  <font>
                                     <Font name="System Bold" size="28.0" />
                                  </font>

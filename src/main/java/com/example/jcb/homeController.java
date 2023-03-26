@@ -27,6 +27,30 @@ public class homeController {
         stage.setScene(scene);
         stage.show();
     }
+    @FXML
+    public void gotodapplyforjob(ActionEvent event) throws IOException {
+        root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("applyforjob.fxml")));
+        scene = new Scene(root);
+        stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.show();
+    }
+    @FXML
+    public void gotocreatjob(ActionEvent event) throws IOException {
+        root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("creatjob.fxml")));
+        scene = new Scene(root);
+        stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.show();
+    }
+    @FXML
+    public void gotochat(ActionEvent event) throws IOException {
+        root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("chat.fxml")));
+        scene = new Scene(root);
+        stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.show();
+    }
     public void logout(ActionEvent event){
         System.exit(0);
     }
