@@ -42,11 +42,7 @@ public class backloginController {
 
     @FXML
     public void submit(ActionEvent event) throws IOException {
-//        root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("login.fxml")));
-//        scene = new Scene(root);
-//        stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
-//        stage.setScene(scene);
-//        stage.show();
+
         if(name.getText().isEmpty()  || phone.getText().isEmpty() || email.getText().isEmpty()||password.getText().isEmpty() || address.getText().isEmpty() ){
             Alert alert = new Alert(Alert.AlertType.WARNING);
             alert.setContentText("Information is missing");
@@ -97,6 +93,11 @@ public class backloginController {
                 alert.setContentText("You are member of Job Through contest");
 
                 alert.show();
+                root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("login.fxml")));
+                scene = new Scene(root);
+                stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
+                stage.setScene(scene);
+                stage.show();
 
 
             }
