@@ -12,7 +12,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.Objects;
 
-public class applyforjobController {
+public class resultController {
     public Parent root;
     public Stage stage;
     public Scene scene;
@@ -27,18 +27,8 @@ public class applyforjobController {
         stage.setScene(scene);
         stage.show();
     }
-    @FXML
-    public void viewtest(ActionEvent event) throws IOException {
-        root= FXMLLoader.load(Objects.requireNonNull(getClass().getResource("viewtest.fxml")));
-        scene = new Scene(root);
-        stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
-        stage.setScene(scene);
-        stage.show();
-    }
     public void logout(ActionEvent event){
         System.exit(0);
     }
-
-
 
 }

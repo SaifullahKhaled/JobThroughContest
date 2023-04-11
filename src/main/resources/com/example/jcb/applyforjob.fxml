@@ -24,11 +24,6 @@
                                 <Image url="@jcblogo.png" />
                             </image>
                         </ImageView>
-                        <Text fill="#d7a8a8" layoutX="62.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOME PAGE">
-                            <font>
-                                <Font name="System Bold" size="30.0" />
-                            </font>
-                        </Text>
                         <VBox layoutX="-3.0" layoutY="300.0" prefHeight="200.0" prefWidth="302.0">
                             <children>
                                 <HBox prefHeight="71.0" prefWidth="302.0">
@@ -114,7 +109,7 @@
                                 <Font size="22.0" />
                             </font>
                         </TextField>
-                        <Button layoutX="382.0" layoutY="572.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="184.0" style="-fx-background-color: #154E86;" text="Join Test" textFill="WHITE">
+                        <Button layoutX="382.0" layoutY="572.0" mnemonicParsing="false" onAction="#viewtest" prefHeight="56.0" prefWidth="184.0" style="-fx-background-color: #154E86;" text="Join Test" textFill="WHITE">
                             <font>
                                 <Font size="22.0" />
                             </font>

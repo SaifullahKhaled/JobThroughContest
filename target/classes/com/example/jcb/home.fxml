@@ -24,7 +24,7 @@
                         <Image url="@jcblogo.png" />
                      </image>
                   </ImageView>
-                  <Text fill="#d7a8a8" layoutX="62.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DASHBOARD">
+                  <Text fill="#e8baba" layoutX="62.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DASHBOARD">
                      <font>
                         <Font name="System Bold" size="30.0" />
                      </font>

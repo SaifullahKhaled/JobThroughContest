@@ -23,7 +23,7 @@
                                 <Image url="@jcblogo.png" />
                             </image>
                         </ImageView>
-                        <Text fill="#d7a8a8" layoutX="62.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOME PAGE">
+                        <Text fill="#e8baba" layoutX="63.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOMEPAGE">
                             <font>
                                 <Font name="System Bold" size="30.0" />
                             </font>
@@ -40,7 +40,7 @@
                                                 <Insets bottom="20.0" left="10.0" top="20.0" />
                                             </HBox.margin>
                                         </ImageView>
-                                        <Button alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#gotodashboard" prefHeight="72.0" prefWidth="216.0" style="-fx-background-color: #154E86;" text="DASHBOARD" textFill="WHITE">
+                                        <Button alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#gotodashboard" prefHeight="72.0" prefWidth="216.0" style="-fx-background-color: #154E86;" text="Dashboard" textFill="WHITE">
                                             <font>
                                                 <Font size="30.0" />
                                             </font>
@@ -80,7 +80,7 @@
                                                 <Insets top="10.0" />
                                             </HBox.margin>
                                         </ImageView>
-                                        <Button alignment="BASELINE_LEFT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#logout" prefHeight="72.0" prefWidth="216.0" style="-fx-background-color: #154E86;" text="LOGOUT" textFill="WHITE">
+                                        <Button alignment="BASELINE_LEFT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#logout" prefHeight="72.0" prefWidth="216.0" style="-fx-background-color: #154E86;" text="Logout" textFill="WHITE">
                                             <font>
                                                 <Font size="30.0" />
                                             </font>
